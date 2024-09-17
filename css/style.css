@@ -1,0 +1,36 @@
+/* reset rules  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* header  */
+
+header {
+    background-color: aliceblue;
+    background-size: auto 100%;
+}
+
+.header-logo {
+    height: 70px;
+    padding: 10px 15px;
+}
+
+.header-title {
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+}
