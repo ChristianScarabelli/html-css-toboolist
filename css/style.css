@@ -41,21 +41,23 @@ main {
     padding: 40px 15px;
 }
 
-.container {
+.button-container {
     max-width: 1000px;
     margin: 0 auto;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
     background-color: white;
     padding: 15px 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 3px;
 }
 
 /* button bar  */
 
 .button {
     margin: 0 auto;
-    padding: 10px 40px 15px;
+    padding: 10px 40px 10px;
 }
+
 
 .task-button {
     color: white;
@@ -82,6 +84,14 @@ main {
 }
 
 /* list-content  */
+
+.list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 
 .check-mark {
     color: green;
