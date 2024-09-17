@@ -20,9 +20,7 @@ ul, ol {
 /* header  */
 
 header {
-    background-color: aliceblue;
     background-size: auto 100%;
-    margin-bottom: 30px;
 }
 
 .header-logo {
@@ -38,13 +36,18 @@ header {
 }
 
 /* main content  */
+main {
+    background-color: rgb(236, 234, 234);
+    padding: 40px 15px;
+}
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: aliceblue;
-    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+    padding: 15px 15px;
 }
 
 /* button bar  */
@@ -52,7 +55,6 @@ header {
 .button {
     margin: 0 auto;
     padding: 10px 40px 15px;
-    border-bottom: 2px solid white;
 }
 
 .task-button {
@@ -92,6 +94,7 @@ header {
 ol {
     padding: 50px 50px;
     font-size: 25px;
+    word-spacing: 5px;
 }
 
 .list-title {
@@ -99,4 +102,36 @@ ol {
 }
 li {
     line-height: 50px;
+}
+/* icons */
+.icon {
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.icon.editorial {
+background-color: rgb(134, 134, 218);
+}
+
+.icon.q1-goals {
+background-color: purple;
+}
+
+.icon.recruiting {
+background-color: lightgreen;
+}
+
+.icon.mobile {
+background-color: orange;
+}
+
+.icon.website{
+background-color: blueviolet;
+}
+
+.icon.sales {
+background-color: green;
 }
