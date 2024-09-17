@@ -21,6 +21,7 @@ ul, ol {
 header {
     background-color: aliceblue;
     background-size: auto 100%;
+    margin-bottom: 30px;
 }
 
 .header-logo {
@@ -33,4 +34,45 @@ header {
     display: inline-block;
     vertical-align: top;
     padding-top: 15px;
+}
+
+/* main content  */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* button bar  */
+
+.button-container {
+    margin: 0 auto;
+    padding: 15px 40px 10px;
+}
+
+.task-button {
+    color: white;
+    background-color: rgb(88, 154, 212);
+    border-radius: 12%;
+    border-color: rgb(88, 154, 212);
+    text-align: center; 
+    vertical-align: middle; 
+    padding: 10px 20px; 
+    line-height: normal;
+    font-size: 15px; 
+} 
+
+.section-button {
+    border: 1px solid lightgrey;
+    border-radius: 12%;
+    background-color: white;
+    color: lightgrey;
+    text-align: center; 
+    vertical-align: middle; 
+    padding: 10px 20px; 
+    line-height: normal; 
+    font-size: 15px;
 }
