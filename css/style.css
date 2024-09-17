@@ -80,3 +80,10 @@ header {
 
 /* list-content  */
 
+.check-mark {
+    color: green;
+}
+
+.uncheck-mark {
+    color: red;
+}
